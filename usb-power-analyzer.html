@@ -96,7 +96,19 @@
   
     <h2>Requirements</h2>
     
-  
+    ### Voltage Measurement
+
+| Parameter | Requirement | Notes |
+|---|---|---|
+| Measurement Type | DC | Designed for DC/DC converter analysis |
+| Input Voltage Range | −30 V to +30 V | DC measurement range |
+| Maximum Input Voltage | 50 V | Margin for transient conditions |
+| Accuracy | ±0.5% | Including calibration error |
+| Resolution | ≤10 mV | ADC dependent |
+| Input Impedance | ≥1 MΩ | Minimize loading of DUT |
+| Measurement Bandwidth | TBD | Analog front-end bandwidth |
+| Channels | 2 channels | Input and output voltage measurement |
+| Sampling Rate | ≥100 SPS | Suitable for power measurements |  
   </section>
 
 
