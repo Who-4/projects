@@ -3,7 +3,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: red; <!-- #f5f5f5 --> 
+  background: red; /* #f5f5f5 */
   color: #222;
 }
 
